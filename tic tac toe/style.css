@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: #247BA0;
+    color: white;
+}
+.box{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 20px;
+    box-shadow: 1px 18px 2rem 13px rgba(0, 0, 0, 0.3);
+    border: none;
+    font-size: 6em;
+    background-color: white;
+    color: red;
+
+}
+.buttons{
+    margin: 30px;
+    width: 70vh;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+   
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.reset button{
+  font-size: 2em;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color: black;
+}
+.New{
+    font-size: 1.5em;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  border: none;
+  background-color: black;
+}
+.mainmsg p{
+   font-size: 2em;
+}
+.hide{
+    display: none;
+}
+.draw p{
+    font-size: 2em;
+ }

@@ -1,0 +1,92 @@
+
+*{
+    padding: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+} 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: larger;
+}
+
+.logo {
+    height: 55px;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+.First{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   
+}
+.para{
+    font-size: 45px;
+}
+section p{
+    width: 55vw;
+    text-align: center;
+    font-size: 22px;
+}
+section span img{
+    margin: -5px 10px;
+}
+.bigbutton{
+    background-color:#00b6d1;
+    padding: 14px 15px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 750;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70vw;
+    margin: auto;
+
+}
+.big{
+    font-size: 25px;
+}
+.small{
+    font-size: 14px;
+}
+.btn{
+    background-color:#00b6d1;
+    padding: 10px 10px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 750;
+}
+.item-lang{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.green{
+    background-color: #5cb85c;
+}
+.item{
+    background-color: rgb(246, 245, 245);
+
+}
+    .grid{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       gap: 15px 17px;
+    }
